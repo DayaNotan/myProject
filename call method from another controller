@@ -1,0 +1,5 @@
+/*call to other controller function*/
+   
+   require_once(APPPATH.'controllers/a.php'); //include controller
+   $aObj = new a();  //create object 
+   $aObj->custom_a(); //call function
